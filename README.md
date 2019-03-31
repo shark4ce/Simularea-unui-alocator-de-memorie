@@ -4,6 +4,7 @@ In acest proiect am simulat un alocator simplu de memorie similiar sistemului im
 --- Implemenetarea am realizato in C
 
 Arena - bloc de memorie compact pe care il vom administra aplicand unele comenzi descrie mai jos.
+
 --Structura arenei: consideram arena un vector de N oceti (unsigned char).Fiecare octet poate fi accesat prin indexul sau (de la 0 la N-1). Un index este un intreg fara semn pe 32 biti. Uneori va trebui sa consideram 4 octeti succesici din arena ca reprezentand valoarea unui index, astfel, vom considera ca acesta este reprezentat in format little-endian.
 
 Programul primeste la intrare comnezi de alocare, alterare, afisare si eliberare de memorie, dupa care furnizeaza la iesire reazultatul fiecarei comenzi.
