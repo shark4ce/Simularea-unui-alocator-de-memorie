@@ -1,4 +1,4 @@
-# Simularea-unui-alocator-de-memorie
+# Simularea-unui-alocator-de-memorie in C
 In acest proiect am simulat un alocator simplu de memorie similiar sistemului implicit malloc/calloc/realloc/free
 (folosindu-ne de acestea).
 --- Implemenetarea am realizato in C--
